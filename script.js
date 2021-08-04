@@ -1,4 +1,4 @@
-let arr = ['igor', 'ivan', 'svetlana', 'edik'];
+let arr = ['igor', 'ivan', 'svetlana', 'edik', 'yarik'];
 
 
 arr.forEach((el)=>{
