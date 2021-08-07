@@ -6,13 +6,13 @@ arr.forEach((el)=>{
     div.classList.add('cart');
     let p = document.createElement('p');
     
-    let text = el.split('');
+    //let text = el.split('');
     //text.splice(0,1,text[0].toUpperCase());
-    text[0] = text[0].toUpperCase();
-    text = text.join('');
+    //text[0] = text[0].toUpperCase();
+    //text = text.join('');
    
-    console.log(text)
-    
+    let text = el.toLowerCase();
+    text = text.replace(/^[a-zа-яё]/, (e) => e.toUpperCase());
     
     p.textContent = text;
     
