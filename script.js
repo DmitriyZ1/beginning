@@ -1,4 +1,4 @@
-let arr = ['igor', 'ivan', 'svetlana', 'edik', 'yarik'];
+let arr = ['igor', 'ivan', 'svetlana', 'edik', 'yarik', 'klerk'];
 
 
 arr.forEach((el)=>{
@@ -15,7 +15,7 @@ arr.forEach((el)=>{
     text = text.replace(/^[a-zа-яё]/, (e) => e.toUpperCase());
     
     p.textContent = text;
-    
+    g
     div.append(p);
     document.querySelector('body').append(div);
 })
